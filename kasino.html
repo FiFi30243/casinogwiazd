@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+      
+       
+       <script>
+var stan_konta=1000
+
+var a=["czerwony", "biały"]
+
+var c=prompt("Podaj kolor (czerwony lub biały)")
+var obstawianie=parseInt(prompt("Ile pieniędzy obstawiasz?"))   
+var b=a[Math.floor(Math.random() * a.length)]
+var d=document.write("Wylosowano kolor: " + b)
+if (c==b) {
+    document.write(" <br> brawo wygrałeś, twój stan konta to: " +(stan_konta+obstawianie))
+}
+ else if (a!=b) {
+  document.write(" <br> Przegrałeś, twój stan konta to: "+(stan_konta-obstawianie))
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+    
+            
+            </script>
+            </body>
+</html>
